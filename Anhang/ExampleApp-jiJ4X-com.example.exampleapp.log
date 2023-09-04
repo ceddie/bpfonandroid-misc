@@ -1,0 +1,450 @@
+13:27:53 - App: com.example.exampleapp
+13:27:53 - UID/GID: 10169
+13:27:54 - 
+13:27:54 - Lookup Table:
+13:27:54 - 0xffffffff9f2698f1: {'name': '__x64_sys_connect', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e7162b1: {'name': '__x64_sys_execve', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e702d91: {'name': '__x64_sys_open', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e71f9b1: {'name': '__x64_sys_unlink', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f269951: {'name': '__x64_sys_accept', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f269931: {'name': '__x64_sys_accept4', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f269911: {'name': '__x64_sys_bind', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f269871: {'name': '__x64_sys_listen', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f2693d1: {'name': '__x64_sys_send', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e3cb0f1: {'name': '__x64_sys_fork', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e3cb741: {'name': '__x64_sys_clone', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e3df511: {'name': '__x64_sys_ptrace', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9e702cf1: {'name': '__x64_sys_openat', 'is_kprobe': True, 'is_special': True}
+13:27:54 - 0xffffffff9f415c11: {'name': 'tcp_v4_connect', 'is_kprobe': True, 'is_special': False}
+13:27:54 - 0x77a4e4d0b230: {'name': 'android_getaddrinfofornet', 'is_kprobe': False, 'is_special': False}
+13:27:54 - 0x77a4e4d01ac0: {'name': 'system', 'is_kprobe': False, 'is_special': False}
+13:27:54 - 0x77a4e4d481d0: {'name': 'getgid', 'is_kprobe': False, 'is_special': False}
+13:27:54 - 0x77a4e4d48350: {'name': 'setuid', 'is_kprobe': False, 'is_special': False}
+13:27:54 - 0x77a4e4d48330: {'name': 'setgid', 'is_kprobe': False, 'is_special': False}
+13:27:54 - 0x71248bf0: {'name': 'android.app.ActivityManager.getRunningAppProcesses()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71248cbe']}
+13:27:54 - 0x71287dd0: {'name': 'android.app.admin.DevicePolicyManager.isAdminActive(android.content.ComponentName)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71287e3d']}
+13:27:54 - 0x71287eb0: {'name': 'android.app.admin.DevicePolicyManager.isAdminActiveAsUser(android.content.ComponentName,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71287f5a', '0x71287f67']}
+13:27:54 - 0x7136fbf0: {'name': 'android.app.ContextImpl.checkPermission(java.lang.String,int,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x7136fd42', '0x7136fdbf']}
+13:27:54 - 0x7136fe60: {'name': 'android.app.ContextImpl.checkPermission(java.lang.String,int,int,android.os.IBinder)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x7136ffb5', '0x7136ffdd']}
+13:27:54 - 0x715b7010: {'name': 'android.os.SystemProperties.get(java.lang.String)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x715b704f']}
+13:27:54 - 0x715b7060: {'name': 'android.os.SystemProperties.get(java.lang.String,java.lang.String)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x715b7099']}
+13:27:54 - 0x715b70b0: {'name': 'android.os.SystemProperties.getBoolean(java.lang.String,boolean)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x715b70e4']}
+13:27:54 - 0x715b7100: {'name': 'android.os.SystemProperties.getInt(java.lang.String,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x715b7134']}
+13:27:54 - 0x715b7150: {'name': 'android.os.SystemProperties.getLong(java.lang.String,long)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x715b7184']}
+13:27:54 - 0x71650930: {'name': 'android.telephony.TelephonyManager.getNetworkCountryIso()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71650979']}
+13:27:54 - 0x71650990: {'name': 'android.telephony.TelephonyManager.getNetworkCountryIso(int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71650ae0', '0x71650b26', '0x71650b35']}
+13:27:54 - 0x713375c0: {'name': 'android.app.ActivityThread.currentActivityThread()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x713375e9']}
+13:27:54 - 0x6ffa9bd0: {'name': 'dalvik.system.BaseDexClassLoader.<init>(java.lang.String,java.io.File,java.lang.String,java.lang.ClassLoader)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6ffa9c37']}
+13:27:54 - 0x6ffa9c50: {'name': 'dalvik.system.BaseDexClassLoader.<init>(java.lang.String,java.lang.String,java.lang.ClassLoader,java.lang.ClassLoader[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6ffa9cae']}
+13:27:54 - 0x6ffa9cc0: {'name': 'dalvik.system.BaseDexClassLoader.<init>(java.lang.String,java.lang.String,java.lang.ClassLoader,java.lang.ClassLoader[],java.lang.ClassLoader[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6ffa9d20']}
+13:27:54 - 0x6ffa9d30: {'name': 'dalvik.system.BaseDexClassLoader.<init>(java.lang.String,java.lang.String,java.lang.ClassLoader,java.lang.ClassLoader[],java.lang.ClassLoader[],boolean)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6ffa9eab']}
+13:27:54 - 0x6ffa0bf0: {'name': 'dalvik.system.DexFile.openDexFileNative(java.lang.String,java.lang.String,int,java.lang.ClassLoader,dalvik.system.DexPathList$Element[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6ffa0d64']}
+13:27:54 - 0x6fc595c0: {'name': 'java.lang.ClassLoader.getPackage(java.lang.String)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc59668']}
+13:27:54 - 0x6fd215b0: {'name': 'java.io.File.delete()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fd21703', '0x6fd2170c']}
+13:27:54 - 0x6fc4da20: {'name': 'java.util.zip.ZipFile.open(java.lang.String,int,long,boolean)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc4db39']}
+13:27:54 - 0x6fe368e0: {'name': 'java.net.Socket.connect(java.net.SocketAddress)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fe3691e']}
+13:27:54 - 0x718a82a0: {'name': 'com.android.internal.os.Zygote.forkAndSpecialize(int,int,int[],int,int[][],int,java.lang.String,java.lang.String,int[],int[],boolean,java.lang.String,java.lang.String,boolean,java.lang.String[],java.lang.String[],boolean,boolean)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x718a863c']}
+13:27:54 - 0x718a86d0: {'name': 'com.android.internal.os.Zygote.forkSystemServer(int,int,int[],int,int[][],long,long)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x718a88e9']}
+13:27:54 - 0x718ae520: {'name': 'com.android.internal.os.ZygoteInit.forkSystemServer(java.lang.String,java.lang.String,com.android.internal.os.ZygoteServer)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x718aef6e', '0x718aef7f']}
+13:27:54 - 0x6fc4f900: {'name': 'java.lang.UNIXProcess.forkAndExec(byte[],byte[],int,byte[],int,byte[],int[],boolean)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc4fa96']}
+13:27:54 - 0x6fc5dfa0: {'name': 'java.lang.Runtime.exec(java.lang.String)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc5dfe1']}
+13:27:54 - 0x6fc5dff0: {'name': 'java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc5e196']}
+13:27:54 - 0x6fc5e2b0: {'name': 'java.lang.Runtime.exec(java.lang.String[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc5e2f1']}
+13:27:54 - 0x6fc5e300: {'name': 'java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc5e430']}
+13:27:54 - 0x7136f5a0: {'name': 'android.app.ContextImpl.bindService(android.content.Intent,android.content.ServiceConnection,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x7136f648']}
+13:27:54 - 0x716a0090: {'name': 'android.util.Base64.decode(java.lang.String,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x716a00e2']}
+13:27:54 - 0x700460d0: {'name': 'com.android.org.bouncycastle.crypto.macs.HMac.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x700463a1']}
+13:27:54 - 0x70047400: {'name': 'com.android.org.bouncycastle.crypto.paddings.PaddedBufferedBlockCipher.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x70047c43']}
+13:27:54 - 0x70049880: {'name': 'com.android.org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$BufferedGenericBlockCipher.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x70049935']}
+13:27:54 - 0x7004a5e0: {'name': 'com.android.org.bouncycastle.crypto.digests.OpenSSLDigest.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x7004a692']}
+13:27:54 - 0x71716290: {'name': 'android.security.keystore2.AndroidKeyStoreAuthenticatedAESCipherSpi$BufferAllOutputUntilDoFinalStreamer.doFinal(byte[],int,int,byte[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x717163e7']}
+13:27:54 - 0x71718170: {'name': 'android.security.keystore2.KeyStoreCryptoOperationChunkedStreamer.doFinal(byte[],int,int,byte[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x71718521']}
+13:27:54 - 0x6fcd9820: {'name': 'javax.crypto.Cipher.doFinal(java.nio.ByteBuffer,java.nio.ByteBuffer)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcd98f4']}
+13:27:54 - 0x6fcd9b90: {'name': 'javax.crypto.Cipher.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcd9c25']}
+13:27:54 - 0x6fcd9d20: {'name': 'javax.crypto.Cipher.doFinal(byte[],int,int,byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcd9de5']}
+13:27:54 - 0x6fcd9ee0: {'name': 'javax.crypto.Cipher.doFinal()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcd9f48']}
+13:27:54 - 0x6fcd9f70: {'name': 'javax.crypto.Cipher.doFinal(byte[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcd9ff1']}
+13:27:54 - 0x6fcda0f0: {'name': 'javax.crypto.Cipher.doFinal(byte[],int,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fcda198']}
+13:27:54 - 0x6fddd5d0: {'name': 'javax.crypto.Mac.doFinal(byte[],int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fddd8a9']}
+13:27:54 - 0x6fddda10: {'name': 'javax.crypto.Mac.doFinal()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fdddb59']}
+13:27:54 - 0x6fdddba0: {'name': 'javax.crypto.Mac.doFinal(byte[])', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fddded2']}
+13:27:54 - 0x6fc50d00: {'name': 'java.util.zip.ZipFile.read(long,long,long,byte[],int,int)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc50e3a']}
+13:27:54 - 0x6fc55cd0: {'name': 'java.io.File.getPath()', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc55cf1']}
+13:27:54 - 0x6fc59960: {'name': 'java.lang.ClassLoader.loadClass(java.lang.String)', 'is_kprobe': False, 'is_special': True, 'returns': ['0x6fc5999e']}
+13:27:54 - 
+13:27:54 - WARNING: Error when adding a tracing segment. No probe with name '__x64_sys_getdents64' in lookup table.
+13:27:54 - WARNING: Error when adding a tracing segment. No probe with name '__x64_sys_faccessat' in lookup table.
+13:27:54 - WARNING: Error when adding an event handler. No probe with name '__x64_sys_getdents64' in lookup table.
+13:27:57 - 
+13:27:57 - Level  Event                PID    TID    PPID   COMM             ENTRY               RET        | event specific data
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    main             0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:gwp_asan_prop:s0
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    main             0xffffffff9e702cf1  3          | (fd_s=3, err=0) /proc/thread-self/attr/current
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    main             0xffffffff9e702cf1  3          | (fd_s=3, err=0) /sys/fs/selinux/context
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    main             0xffffffff9e702cf1  3          | (fd_s=3, err=0) /proc/thread-self/attr/current
+13:27:59 - 0      __x64_sys_connect    12648  12648  308    mple.exampleapp  0xffffffff9f2698f1  0          | /dev/socket/logdw
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  52         | (fd_s=52, err=0) /dev/pmsg0
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  53         | (fd_s=53, err=0) /sys/devices/system/cpu/online
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12651      | payload: '' 0x3d0f00     0x77a4ecd05ce0 0x77a4ecd05d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12652      | payload: '' 0x3d0f00     0x77a4e0340ce0 0x77a4e0340d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12653      | payload: '' 0x3d0f00     0x77a4deedcce0 0x77a4deedcd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12654      | payload: '' 0x3d0f00     0x77a4ded22ce0 0x77a4ded22d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12655      | payload: '' 0x3d0f00     0x77a20d437ce0 0x77a20d437d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12656      | payload: '' 0x3d0f00     0x77a20d33ace0 0x77a20d33ad00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12657      | payload: '' 0x3d0f00     0x77a20d23dce0 0x77a20d23dd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12658      | payload: '' 0x3d0f00     0x77a1c3c41ce0 0x77a1c3c41d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12659      | payload: '' 0x3d0f00     0x77a1c3b3cce0 0x77a1c3b3cd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12660      | payload: '' 0x3d0f00     0x77a1c3a33ce0 0x77a1c3a33d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12661      | payload: '' 0x3d0f00     0x77a1c392ace0 0x77a1c392ad00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12662      | payload: '' 0x3d0f00     0x77a1c3821ce0 0x77a1c3821d00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12657  308    ADB-JDWP Connec  0xffffffff9e702cf1  60         | (fd_s=60, err=0) /dev/__properties__/u:object_r:init_service_status_prop:s0
+13:27:59 - 0      __x64_sys_connect    12648  12657  308    ADB-JDWP Connec  0xffffffff9f2698f1  0          | 
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  60         | (fd_s=60, err=0) /apex/com.android.tethering/lib64/libframework-connectivity-tiramisu-jni.so
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  60         | (fd_s=60, err=0) /dev/binder
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12664      | payload: '' 0x3d0f00     0x77a1c361ace0 0x77a1c361ad00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12664  308    binder:12648_1   0xffffffff9e3cb741  12665      | payload: '' 0x3d0f00     0x77a1c351dce0 0x77a1c351dd00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12665  308    binder:12648_2   0xffffffff9e702cf1  66         | (fd_s=66, err=0) /dev/__properties__/u:object_r:use_memfd_prop:s0
+13:27:59 - 0      __x64_sys_openat     12648  12665  308    binder:12648_2   0xffffffff9e702cf1  66         | (fd_s=66, err=0) /proc/sys/kernel/random/boot_id
+13:27:59 - 0      __x64_sys_openat     12648  12665  308    binder:12648_2   0xffffffff9e702cf1  66         | (fd_s=66, err=0) /dev/ashmem4fab41ca-5b00-4e3e-ac81-46a0f082ac06
+13:27:59 - 0      __x64_sys_clone      12648  12665  308    binder:12648_2   0xffffffff9e3cb741  12666      | payload: '' 0x3d0f00     0x77a1c3420ce0 0x77a1c3420d00 (debug: 0)
+13:27:59 - 0      __x64_sys_connect    12648  12648  308    re-initialized>  0xffffffff9f2698f1  0          | /dev/socket/statsdw
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /dev/__properties__/u:object_r:binder_cache_system_server_prop:s0
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /proc/self/cmdline
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315623824  | /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315623824  | /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.extensions.odex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.extensions.odex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.extensions.vdex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /system_ext/framework/oat/x86_64/androidx.window.extensions.art
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.extensions.jar
+13:27:59 - 1      le.openDexFileNative 12648  12648  308    mple.exampleapp  0x6ffa0bf0          314742624  | payload: '/system_ext/framework/androidx.window.extensions.jar' 0x6fb3a478   0x12d00990   0x0          (debug: 53)
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314741328  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314743112  | /system/lib64
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314743144  | /system_ext/lib64
+13:27:59 - 0      exClassLoader.<init> 12648  12648  308    mple.exampleapp  0x6ffa9d30          0          | payload: '/system_ext/framework/androidx.window.extensions.jar' 0x6fb39ef0   0x12c29420   0x12d00990   (debug: 53)
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          1871296920 | \xe8\xb9\x89o
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          0          | 
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /mnt/expand
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/user/0/com.example.exampleapp
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315624384  | /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315624384  | /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.sidecar.odex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.sidecar.odex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/oat/x86_64/androidx.window.sidecar.vdex
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /system_ext/framework/oat/x86_64/androidx.window.sidecar.art
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /system_ext/framework/androidx.window.sidecar.jar
+13:27:59 - 1      le.openDexFileNative 12648  12648  308    mple.exampleapp  0x6ffa0bf0          314745776  | payload: '/system_ext/framework/androidx.window.sidecar.jar' 0x6fb3a478   0x12d00bc0   0x0          (debug: 50)
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314741328  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314746264  | /system/lib64
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314746296  | /system_ext/lib64
+13:27:59 - 0      exClassLoader.<init> 12648  12648  308    mple.exampleapp  0x6ffa9d30          0          | payload: '/system_ext/framework/androidx.window.sidecar.jar' 0x6fb39ef0   0x12c2a080   0x12d00bc0   (debug: 50)
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          1871296920 | \xe8\xb9\x89o
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          0          | 
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /mnt/expand
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/user/0/com.example.exampleapp
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315622632  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315622632  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 2      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 1      le.openDexFileNative 12648  12648  308    mple.exampleapp  0x6ffa0bf0          314748824  | payload: '/data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC' 0x6fb3a478   0x12d004e8   0x0          (debug: 94)
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314741328  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314749288  | /system/lib64
+13:27:59 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314749320  | /system_ext/lib64
+13:27:59 - 0      exClassLoader.<init> 12648  12648  308    mple.exampleapp  0x6ffa9d30          0          | payload: '/data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC' 0x6fb39ef0   0x12c2abe8   0x12d004e8   (debug: 94)
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          1871296920 | \xe8\xb9\x89o
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          0          | 
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /mnt/expand
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/user/0/com.example.exampleapp
+13:27:59 - 0      lassLoader.loadClass 12648  12648  308    mple.exampleapp  0x6fc59960          314751368  | payload: 'androidx.core.app.CoreComponentFactory' 0x6f9bf678   0x12c2abe8   0x12d00d58   (debug: 39)
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315622856  | /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314752864  | /data/misc/profiles/cur/0/com.example.exampleapp/primary.prof
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314753448  | /data/misc/profiles/ref/com.example.exampleapp/primary.prof
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12667      | payload: '' 0x3d0f00     0x77a1c29c4ce0 0x77a1c29c4d00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  66         | (fd_s=66, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  67         | (fd_s=67, err=0) /data/resource-cache/product@overlay@EmulationPixel4@EmulationPixel4Overlay.apk
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  67         | (fd_s=67, err=0) /product/overlay/EmulationPixel4/EmulationPixel4Overlay.apk
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  67         | (fd_s=67, err=0) /product/overlay/EmulationPixel4/EmulationPixel4Overlay.apk
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  68         | (fd_s=68, err=0) /data/resource-cache/product@overlay@NavigationBarModeGestural@NavigationBarMod
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  68         | (fd_s=68, err=0) /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  68         | (fd_s=68, err=0) /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+13:27:59 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.STATUS_BAR_SERVICE' 0x70735248   0x12c287a8   0x70442f00   (debug: 38)
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  69         | (fd_s=69, err=0) /apex/com.android.tethering/lib64/libframework-connectivity-jni.so
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315624712  | /data/user/0/com.example.exampleapp
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314764328  | /data/user/0/com.example.exampleapp/cache
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314764328  | /data/user/0/com.example.exampleapp/cache
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315624656  | /data/user_de/0/com.example.exampleapp
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314766176  | /data/user_de/0/com.example.exampleapp/code_cache
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314766408  | /data/user_de/0/com.example.exampleapp/code_cache/com.android.opengl.shaders_ca
+13:27:59 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          314766608  | /data/user_de/0/com.example.exampleapp/code_cache/com.android.skia.shaders_cach
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  69         | (fd_s=69, err=0) /dev/__properties__/u:object_r:graphics_config_prop:s0
+13:27:59 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.STATUS_BAR_SERVICE' 0x70735248   0x12c31b40   0x70442f00   (debug: 38)
+13:27:59 - 0      lassLoader.loadClass 12648  12648  308    mple.exampleapp  0x6fc59960          1879511104 | payload: 'android.app.Application' 0x6f9bf678   0x12c2abe8   0x704383e8   (debug: 24)
+13:27:59 - 0      lassLoader.loadClass 12648  12648  308    mple.exampleapp  0x6fc59960          314781976  | payload: 'androidx.startup.InitializationProvider' 0x6f9bf678   0x12c2abe8   0x12d00ea8   (debug: 40)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12668      | payload: '' 0x3d0f00     0x77a1c27d9ce0 0x77a1c27d9d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12669      | payload: '' 0x3d0f00     0x77a1c26dcce0 0x77a1c26dcd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12668  308    RenderThread     0xffffffff9e3cb741  12670      | payload: '' 0x3d0f00     0x77a1c26dcce0 0x77a1c26dcd00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /vendor/lib64/egl/libEGL_emulation.so
+13:27:59 - 0      lassLoader.loadClass 12648  12648  308    mple.exampleapp  0x6fc59960          316972744  | payload: 'com.example.exampleapp.MainActivity' 0x6f9bf678   0x12c2abe8   0x12d04158   (debug: 36)
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  72         | (fd_s=72, err=0) /vendor/lib64/libGoldfishProfiler.so
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /vendor/lib64/egl/libGLESv1_CM_emulation.so
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /vendor/lib64/egl/libGLESv2_emulation.so
+13:27:59 - 0      temProperties.getInt 12648  12648  308    mple.exampleapp  0x715b7100          1          | payload: 'persist.wm.debug.predictive_back' 0x70a616c8   0x704eed10   0x1          (debug: 33)
+13:27:59 - 0      temProperties.getInt 12648  12648  308    mple.exampleapp  0x715b7100          0          | payload: 'persist.wm.debug.predictive_back_always_enforce' 0x70a616c8   0x704eed40   0x0          (debug: 48)
+13:27:59 - 0      lassLoader.loadClass 12648  12648  308    mple.exampleapp  0x6fc59960          317097800  | payload: 'com.google.android.material.theme.MaterialComponentsViewInflater' 0x6f9bf678   0x12c2abe8   0x12e68298   (debug: 65)
+13:27:59 - 0      assLoader.getPackage 12648  12648  308    mple.exampleapp  0x6fc595c0          0          | payload: 'androidx.coordinatorlayout.widget' 0x6f9bf5b8   0x12c2abe8   0x12e71908   (debug: 34)
+13:27:59 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.INTERACT_ACROSS_USERS' 0x70735248   0x12c3ce98   0x70442670   (debug: 41)
+13:27:59 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.INTERACT_ACROSS_USERS_FULL' 0x70735248   0x12c3ce98   0x704426a8   (debug: 46)
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /system/lib64/libEGL.so
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /system/lib64/libGLESv1_CM.so
+13:27:59 - 0      __x64_sys_openat     12648  12670  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /system/lib64/libGLESv2.so
+13:27:59 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  71         | (fd_s=71, err=0) /sys/devices/system/cpu
+13:27:59 - 0      textImpl.bindService 12648  12648  308    mple.exampleapp  0x7136f5a0          0          | payload: '' 0x70735108   0x12c3ce98   0x12fb4b18   (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /vendor/lib64/egl/libGLESv1_CM_emulation.so
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /vendor/lib64/egl/libGLESv2_emulation.so
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  71         | (fd_s=71, err=0) /dev/goldfish_pipe
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  79         | (fd_s=79, err=0) /sys/kernel/tracing/trace_marker
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  80         | (fd_s=80, err=0) /proc/self/cmdline
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  80         | (fd_s=80, err=0) /proc/self/cmdline
+13:27:59 - 0      __x64_sys_clone      12648  12664  308    binder:12648_1   0xffffffff9e3cb741  12671      | payload: '' 0x3d0f00     0x77a1c26dcce0 0x77a1c26dcd00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  80         | (fd_s=80, err=0) /proc/self/cmdline
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  80         | (fd_s=80, err=0) /dev/goldfish_pipe
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  81         | (fd_s=81, err=0) /dev/goldfish_pipe
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  82         | (fd_s=82, err=0) 
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  83         | (fd_s=83, err=0) /dev/__properties__/u:object_r:hwservicemanager_prop:s0
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /odm/lib64/hw/
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  83         | (fd_s=83, err=0) /vendor/lib64/hw/
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  83         | (fd_s=83, err=0) /vendor/lib64/hw/android.hardware.graphics.mapper@3.0-impl-ranchu.so
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  83         | (fd_s=83, err=0) /dev/goldfish_pipe
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  84         | (fd_s=84, err=0) /dev/goldfish_address_space
+13:27:59 - 0      __x64_sys_clone      12648  12668  308    RenderThread     0xffffffff9e3cb741  12672      | payload: '' 0x3d0f00     0x77a1c11fbce0 0x77a1c11fbd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12668  308    RenderThread     0xffffffff9e3cb741  12673      | payload: '' 0x3d0f00     0x77a1c0e79ce0 0x77a1c0e79d00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12668  308    RenderThread     0xffffffff9e3cb741  12674      | payload: '' 0x3d0f00     0x77a1c0d7cce0 0x77a1c0d7cd00 (debug: 0)
+13:27:59 - 0      __x64_sys_openat     12648  12668  308    RenderThread     0xffffffff9e702cf1  84         | (fd_s=84, err=0) /dev/goldfish_sync
+13:27:59 - 0      __x64_sys_clone      12648  12665  308    binder:12648_2   0xffffffff9e3cb741  12676      | payload: '' 0x3d0f00     0x77a1c11fbce0 0x77a1c11fbd00 (debug: 0)
+13:27:59 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12677      | payload: '' 0x3d0f00     0x77a1c0c7fce0 0x77a1c0c7fd00 (debug: 0)
+13:28:01 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.READ_DEVICE_CONFIG' 0x70735248   0x12c31b40   0x70442a20   (debug: 38)
+13:28:01 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.READ_DEVICE_CONFIG' 0x70735248   0x12c31b40   0x70442a20   (debug: 38)
+13:28:01 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          315624712  | /data/user/0/com.example.exampleapp
+13:28:01 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:01 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -17        | (fd_s=-1, err=17) /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:01 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:01 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:01 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636352  | /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:01 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  104        | (fd_s=104, err=0) /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:02 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:02 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  -17        | (fd_s=-1, err=17) /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:02 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:02 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:02 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          320398104  | /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:02 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  101        | (fd_s=101, err=0) /data/user/0/com.example.exampleapp/cache/INFO_258547688934685594.tmp
+13:28:03 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  mple.exampleapp  0xffffffff9e702cf1  4          | (fd_s=4, err=0) /proc/self/fd
+13:28:03 - 0      __x64_sys_execve     12678  12678  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /product/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12678  12678  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /apex/com.android.runtime/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12678  12678  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /apex/com.android.art/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12678  12678  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /system_ext/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 3      XProcess.forkAndExec 12648  12648  308    mple.exampleapp  0x6fc4f900          12678      | payload: '' 0x6fa74848   0x131a06d8   0x131a0708   (debug: 0)
+13:28:03 - 3      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12679      | payload: '' 0x3d0f00     0x77a1c0c7fce0 0x77a1c0c7fd00 (debug: 0)
+13:28:03 - 2      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5e300          320472792  | payload: 'p' 0x6fa663d0   0x6f88bc90   0x131a0540   (debug: 2)
+13:28:03 - 1      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5dff0          320472792  | payload: 'ls /data/user/0/com.example.exampleapp/cache' 0x6fa66370   0x6f88bc90   0x131a04d8   (debug: 45)
+13:28:03 - 0      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5dfa0          320472792  | payload: 'ls /data/user/0/com.example.exampleapp/cache' 0x6fa66330   0x6f88bc90   0x131a04d8   (debug: 45)
+13:28:03 - 0      __x64_sys_execve     12678  12678  12648  mple.exampleapp  0xffffffff9e7162b1  0          | /system/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/property_info
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/properties_serial
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:build_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /linkerconfig/ld.config.txt
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:vndk_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /odm/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /vendor/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.vndk.v33/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /odm/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /product/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /product/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.uwb/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.tethering/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.runtime/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.art/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.resolv/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.conscrypt/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.media/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.btservices/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64/egl
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64/hw
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.neuralnetworks/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.i18n/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.appsearch/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.os.statsd/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.adbd/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system_ext/lib64
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64/libcrypto.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  4          | (fd_s=4, err=0) /system/lib64/libz.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  5          | (fd_s=5, err=0) /system/lib64/liblog.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  6          | (fd_s=6, err=0) /system/lib64/libprocessgroup.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  7          | (fd_s=7, err=0) /system/lib64/libselinux.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  8          | (fd_s=8, err=0) /system/lib64/libc.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  9          | (fd_s=9, err=0) /system/lib64/libm.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  10         | (fd_s=10, err=0) /system/lib64/libdl.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  11         | (fd_s=11, err=0) /system/lib64/libc++.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  12         | (fd_s=12, err=0) /system/lib64/libbase.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  13         | (fd_s=13, err=0) /system/lib64/libcgrouprc.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  14         | (fd_s=14, err=0) /system/lib64/libpcre2.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  15         | (fd_s=15, err=0) /system/lib64/libpackagelistparser.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/property_info
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/properties_serial
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:gwp_asan_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:libc_debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:heapprofd_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64/libnetd_client.so
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:vendor_socket_hook_prop:s0
+13:28:03 - 0      __x64_sys_openat     12678  12678  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  mple.exampleapp  0xffffffff9e702cf1  4          | (fd_s=4, err=0) /proc/self/fd
+13:28:03 - 0      __x64_sys_execve     12680  12680  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /product/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12680  12680  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /apex/com.android.runtime/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12680  12680  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /apex/com.android.art/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12680  12680  12648  mple.exampleapp  0xffffffff9e7162b1  -2         | /system_ext/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 0      __x64_sys_execve     12680  12680  12648  mple.exampleapp  0xffffffff9e7162b1  0          | /system/bin/ls /data/user/0/com.example.exampleapp/cache
+13:28:03 - 3      XProcess.forkAndExec 12648  12648  308    mple.exampleapp  0x6fc4f900          12680      | payload: '' 0x6fa74848   0x131bb4c0   0x131bb4f0   (debug: 0)
+13:28:03 - 2      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5e300          320582848  | payload: 'X' 0x6fa663d0   0x6f88bc90   0x131bb328   (debug: 2)
+13:28:03 - 1      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5dff0          320582848  | payload: 'ls /data/user/0/com.example.exampleapp/cache' 0x6fa66370   0x6f88bc90   0x131bb2c0   (debug: 45)
+13:28:03 - 0      va.lang.Runtime.exec 12648  12648  308    mple.exampleapp  0x6fc5dfa0          320582848  | payload: 'ls /data/user/0/com.example.exampleapp/cache' 0x6fa66330   0x6f88bc90   0x131bb2c0   (debug: 45)
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/property_info
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/properties_serial
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:build_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /linkerconfig/ld.config.txt
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:vndk_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /odm/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /vendor/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.vndk.v33/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /odm/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) /product/lib64/vndk-sp
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /product/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.uwb/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.tethering/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.runtime/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.art/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.resolv/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.conscrypt/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.media/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.btservices/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64/egl
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /vendor/lib64/hw
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.neuralnetworks/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.i18n/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.appsearch/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.os.statsd/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /apex/com.android.adbd/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system_ext/lib64
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64/libcrypto.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  4          | (fd_s=4, err=0) /system/lib64/libz.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  5          | (fd_s=5, err=0) /system/lib64/liblog.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  6          | (fd_s=6, err=0) /system/lib64/libprocessgroup.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  7          | (fd_s=7, err=0) /system/lib64/libselinux.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  8          | (fd_s=8, err=0) /system/lib64/libc.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  9          | (fd_s=9, err=0) /system/lib64/libm.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  10         | (fd_s=10, err=0) /system/lib64/libdl.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  11         | (fd_s=11, err=0) /system/lib64/libc++.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  12         | (fd_s=12, err=0) /system/lib64/libbase.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  13         | (fd_s=13, err=0) /system/lib64/libcgrouprc.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  14         | (fd_s=14, err=0) /system/lib64/libpcre2.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  15         | (fd_s=15, err=0) /system/lib64/libpackagelistparser.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/property_info
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/properties_serial
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:gwp_asan_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:libc_debug_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:heapprofd_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /system/lib64/libnetd_client.so
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /dev/__properties__/u:object_r:vendor_socket_hook_prop:s0
+13:28:03 - 0      __x64_sys_openat     12680  12680  12648  ls               0xffffffff9e702cf1  3          | (fd_s=3, err=0) /data/user/0/com.example.exampleapp/cache
+13:28:04 - 0      __x64_sys_openat     12648  12667  308    Profile Saver    0xffffffff9e702cf1  85         | (fd_s=85, err=0) /data/app/~~k-hCAnNW4NsJkZ2Zbb2LxA==/com.example.exampleapp-RPagwJ80zOmq6Lvs-uC
+13:28:04 - 0      __x64_sys_openat     12648  12667  308    Profile Saver    0xffffffff9e702cf1  -2         | (fd_s=-1, err=2) base.apk
+13:28:04 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12682      | payload: '' 0x3d0f00     0x77a1bdb7ece0 0x77a1bdb7ed00 (debug: 0)
+13:28:04 - 0      id_getaddrinfofornet 12648  12682  308    Thread-2         0x77a4e4d0b230      8          | datenburg.org
+13:28:04 - 1      __x64_sys_connect    12648  12682  308    Thread-2         0xffffffff9f2698f1  0          | /dev/socket/dnsproxyd
+13:28:04 - 0      id_getaddrinfofornet 12648  12682  308    Thread-2         0x77a4e4d0b230      0          | datenburg.org
+13:28:04 - 0      java.io.File.getPath 12648  12682  308    Thread-2         0x6fc55cd0          321127248  | 
+13:28:04 - 0      java.io.File.getPath 12648  12682  308    Thread-2         0x6fc55cd0          321127248  | r\x1c\x88-\x02
+13:28:04 - 1      __x64_sys_connect    12648  12682  308    Thread-2         0xffffffff9f2698f1  0          | /dev/socket/fwmarkd
+13:28:04 - 2      tcp_v4_connect       12648  12682  308    Thread-2         0xffffffff9f415c11  0          | 10.0.2.16:55964 -> 45.136.28.114:80
+13:28:04 - 1      __x64_sys_connect    12648  12682  308    Thread-2         0xffffffff9f2698f1  0          | 
+13:28:04 - 1      __x64_sys_connect    12648  12682  308    Thread-2         0xffffffff9f2698f1  0          | /dev/socket/fwmarkd
+13:28:04 - 0      a.net.Socket.connect 12648  12682  308    Thread-2         0x6fe368e0          0          | payload: '' 0x6fa1b788   0x132400b8   0x132404c8   (debug: 0)
+13:28:04 - 0      java.io.File.getPath 12648  12682  308    Thread-2         0x6fc55cd0          321127592  | dv\x1a
+13:28:05 - 0      __x64_sys_clone      12648  12648  308    mple.exampleapp  0xffffffff9e3cb741  12686      | payload: '' 0x3d0f00     0x77a1bdb7ece0 0x77a1bdb7ed00 (debug: 0)
+13:28:05 - 0      id_getaddrinfofornet 12648  12686  308    Thread-3         0x77a4e4d0b230      8          | datenburg.org
+13:28:05 - 1      __x64_sys_connect    12648  12686  308    Thread-3         0xffffffff9f2698f1  0          | /dev/socket/fwmarkd
+13:28:05 - 2      tcp_v4_connect       12648  12686  308    Thread-3         0xffffffff9f415c11  0          | 10.0.2.16:55972 -> 45.136.28.114:80
+13:28:05 - 1      __x64_sys_connect    12648  12686  308    Thread-3         0xffffffff9f2698f1  0          | 
+13:28:05 - 1      __x64_sys_connect    12648  12686  308    Thread-3         0xffffffff9f2698f1  0          | /dev/socket/fwmarkd
+13:28:05 - 0      a.net.Socket.connect 12648  12686  308    Thread-3         0x6fe368e0          0          | payload: '' 0x6fa1b788   0x13240a40   0x13240d78   (debug: 0)
+13:28:05 - 0      java.io.File.getPath 12648  12686  308    Thread-3         0x6fc55cd0          321129816  | \xef\x1eH\x02
+13:28:05 - 0      d.util.Base64.decode 12648  12648  308    mple.exampleapp  0x716a0090          321083720  | SGVsbG8gV29ybGQh -> Hello World!
+13:28:06 - 0      d.util.Base64.decode 12648  12648  308    mple.exampleapp  0x716a0090          321152440  | SGVsbG8gV29ybGQh -> Hello World!
+13:28:07 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:07 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  102        | (fd_s=102, err=0) /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          321220160  | /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          321220160  | /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 0      java.io.File.delete  12648  12648  308    mple.exampleapp  0x6fd215b0          1          | payload: '' 0x6fa70200   0x13256de8   0x6f87fe78   (debug: 0)
+13:28:07 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          319636216  | /data/user/0/com.example.exampleapp/cache
+13:28:07 - 0      __x64_sys_openat     12648  12648  308    mple.exampleapp  0xffffffff9e702cf1  101        | (fd_s=101, err=0) /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 0      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          321284696  | /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 1      java.io.File.getPath 12648  12648  308    mple.exampleapp  0x6fc55cd0          321284696  | /data/user/0/com.example.exampleapp/cache/myFile.txt
+13:28:07 - 0      java.io.File.delete  12648  12648  308    mple.exampleapp  0x6fd215b0          1          | payload: '' 0x6fa70200   0x13266a20   0x6f87fe78   (debug: 0)
+13:28:09 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.CAMERA' 0x70735248   0x12c3ce98   0x70442420   (debug: 26)
+13:28:10 - 0      Impl.checkPermission 12648  12648  308    mple.exampleapp  0x7136fbf0          4294967295 | payload: 'android.permission.CAMERA' 0x70735248   0x12c3ce98   0x70442420   (debug: 26)
+13:28:44 - 0      __x64_sys_openat     12648  12667  308    Profile Saver    0xffffffff9e702cf1  6          | (fd_s=6, err=0) /data/misc/profiles/cur/0/com.example.exampleapp/primary.prof
+13:28:44 - 0      __x64_sys_openat     12648  12667  308    Profile Saver    0xffffffff9e702cf1  6          | (fd_s=6, err=0) /data/misc/profiles/cur/0/com.example.exampleapp/primary.prof
+13:29:57 - 
+13:29:57 - Timeout
+13:29:57 - 
+13:29:57 - Lookup Table:
+13:29:57 - 0x6fc595c0: {'name': 'java.lang.ClassLoader.getPackage(java.lang.String)', 'counter': 1}
+13:29:57 - 0x7136f5a0: {'name': 'android.app.ContextImpl.bindService(android.content.Intent,android.content.ServiceConnection,int)', 'counter': 1}
+13:29:57 - 0xffffffff9f415c11: {'name': 'tcp_v4_connect', 'counter': 2}
+13:29:57 - 0x715b7100: {'name': 'android.os.SystemProperties.getInt(java.lang.String,int)', 'counter': 2}
+13:29:57 - 0x6fd215b0: {'name': 'java.io.File.delete()', 'counter': 2}
+13:29:57 - 0x6fe368e0: {'name': 'java.net.Socket.connect(java.net.SocketAddress)', 'counter': 2}
+13:29:57 - 0x6fc4f900: {'name': 'java.lang.UNIXProcess.forkAndExec(byte[],byte[],int,byte[],int,byte[],int[],boolean)', 'counter': 2}
+13:29:57 - 0x6fc5dfa0: {'name': 'java.lang.Runtime.exec(java.lang.String)', 'counter': 2}
+13:29:57 - 0x6fc5dff0: {'name': 'java.lang.Runtime.exec(java.lang.String,java.lang.String[],java.io.File)', 'counter': 2}
+13:29:57 - 0x6fc5e300: {'name': 'java.lang.Runtime.exec(java.lang.String[],java.lang.String[],java.io.File)', 'counter': 2}
+13:29:57 - 0x716a0090: {'name': 'android.util.Base64.decode(java.lang.String,int)', 'counter': 2}
+13:29:57 - 0x77a4e4d0b230: {'name': 'android_getaddrinfofornet', 'counter': 3}
+13:29:57 - 0x6ffa9d30: {'name': 'dalvik.system.BaseDexClassLoader.<init>(java.lang.String,java.lang.String,java.lang.ClassLoader,java.lang.ClassLoader[],java.lang.ClassLoader[],boolean)', 'counter': 3}
+13:29:57 - 0x6ffa0bf0: {'name': 'dalvik.system.DexFile.openDexFileNative(java.lang.String,java.lang.String,int,java.lang.ClassLoader,dalvik.system.DexPathList$Element[])', 'counter': 3}
+13:29:57 - 0x6fc59960: {'name': 'java.lang.ClassLoader.loadClass(java.lang.String)', 'counter': 5}
+13:29:57 - 0x7136fbf0: {'name': 'android.app.ContextImpl.checkPermission(java.lang.String,int,int)', 'counter': 8}
+13:29:57 - 0xffffffff9f2698f1: {'name': '__x64_sys_connect', 'counter': 10}
+13:29:57 - 0xffffffff9e3cb741: {'name': '__x64_sys_clone', 'counter': 28}
+13:29:57 - 0xffffffff9e7162b1: {'name': '__x64_sys_execve', 'counter': 30}
+13:29:57 - 0x6fc55cd0: {'name': 'java.io.File.getPath()', 'counter': 54}
+13:29:57 - 0xffffffff9e702cf1: {'name': '__x64_sys_openat', 'counter': 200}
+13:29:57 - 
+13:29:57 - Total probes: 145
