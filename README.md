@@ -1,6 +1,8 @@
-# bpfonandroid-misc
+# BPFonAndroid
 
-## ExampleApp
+https://github.com/ceddie/bpfonandroid
+
+# ExampleApp
 
 Android App, die folgenden grundlegenden Aktionen durchführen kann:
 
